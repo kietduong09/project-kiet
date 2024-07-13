@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Quản Lý Sinh Viên</h1>
+
+    <h2>Thêm Sinh Viên</h2>
+    <form id="add-student-form">
+        <input type="text" id="name" placeholder="Tên" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="yearOfBirth" placeholder="Năm Sinh" required>
+        <input type="text" id="phone" placeholder="Điện Thoại" required>
+        <select id="gender" required>
+            <option value="">Giới Tính</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <input type="text" id="address" placeholder="Địa Chỉ" required>
+        <button type="submit">Thêm</button>
+    </form>
+
+    <h2>Danh Sách Sinh Viên</h2>
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Email</th>
+                <th>Năm Sinh</th>
+                <th>Điện Thoại</th>
+                <th>Giới Tính</th>
+                <th>Địa Chỉ</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody id="student-list">
+        </tbody>
+    </table>
+
+    <h2>Sửa Sinh Viên</h2>
+    <form id="edit-student-form" style="display: none;">
+        <input type="hidden" id="edit-id">
+        <input type="text" id="edit-name" placeholder="Tên" required>
+        <input type="email" id="edit-email" placeholder="Email" required>
+        <input type="number" id="edit-yearOfBirth" placeholder="Năm Sinh" required>
+        <input type="text" id="edit-phone" placeholder="Điện Thoại" required>
+        <select id="edit-gender" required>
+            <option value="">Giới Tính</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <input type="text" id="edit-address" placeholder="Địa Chỉ" required>
+        <button type="submit">Cập nhật</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

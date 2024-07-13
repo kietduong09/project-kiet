@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "name": "Đoàn Ngọc Chung",
+      "email": "chung123@gmail.com",
+      "yearOfBirth": "2005",
+      "phone": "0213213213",
+      "gender": "Nam",
+      "address": "Hà nội",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Vũ Đức Trọng",
+      "email": "trongvd276@gmail.com",
+      "yearOfBirth": 2005,
+      "phone": "0978453434",
+      "gender": "Nam",
+      "address": "Hải Phòng"
+    },
+    {
+      "id": "3",
+      "name": "Nguyễn Trường Giang",
+      "email": "NTgiang875@gmail.com",
+      "yearOfBirth": 2005,
+      "phone": "0978453412",
+      "gender": "Nam",
+      "address": "Hà Nội"
+    },
+    {
+      "id": "4",
+      "name": "Lê Việt Thành",
+      "email": "thanhLV2208@gmail.com",
+      "yearOfBirth": 2005,
+      "phone": "0978453888",
+      "gender": "Nam",
+      "address": "Thanh Hóa"
+    },
+    {
+      "id": "5",
+      "name": "Mã Hồng Long",
+      "email": "longMH287@gmail.com",
+      "yearOfBirth": "2005",
+      "phone": "0978453889",
+      "gender": "Nam",
+      "address": "Hà Giang"
+    }
+  ]
+}
